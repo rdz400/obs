@@ -1,0 +1,154 @@
+{
+  "main": {
+    "id": "3e005367a7098cbb",
+    "type": "split",
+    "children": [
+      {
+        "id": "e045afbfd81e197b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "03-areas/knowledge-management/⭐Examples of note-organizing systems.md",
+            "mode": "preview",
+            "backlinks": false,
+            "source": true
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7608ef4dafb1ea79",
+    "type": "split",
+    "children": [
+      {
+        "id": "0a38a836d2032813",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fe87810ba0f9c463",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "43918af5477e5aaa",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "spatial",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "a129b3ea8211ca4f",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 534
+  },
+  "right": {
+    "id": "ac36af72f3590a9d",
+    "type": "split",
+    "children": [
+      {
+        "id": "8b9e1c23e1c9e544",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9212ed3aba8d1468",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "01-workbench/_inbox/Workflow between projects.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8086ba6d4ba7e9b0",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "4bc87c18bebe7a34",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "03-areas/knowledge-management/⭐Examples of note-organizing systems.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1733d4c8381a7eaa",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "50787a858f0aae62",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "03-areas/knowledge-management/⭐Examples of note-organizing systems.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 550.5,
+    "collapsed": true
+  },
+  "active": "e045afbfd81e197b",
+  "lastOpenFiles": [
+    "03-areas/knowledge-management/note-taking-system-robert-greene.md",
+    "03-areas/knowledge-management/building-in-future-reflection-on-decisions-and-intentions-made.md",
+    "04-reference/psychology/prospective memory.md",
+    "03-areas/knowledge-management/primary-rules-in-organization-things-need-to-have-a-dedicated-place.md",
+    "03-areas/knowledge-management/few-definitions-of-an-index.md",
+    "04-reference/psychology/planning-fallacy.md",
+    "04-reference/psychology/hyperbolic-discounting.md",
+    "04-reference/problem-solving/work expands so as to fill the time available for its completion.md",
+    "02-projects/20220617-organize-pictures-phone/20220619-pruned-many-files.md",
+    "02-projects/20220617-organize-pictures-phone/How are WhatsApp pictures organized on my phone.md"
+  ]
+}

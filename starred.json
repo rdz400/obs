@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "title": "Todo",
+      "path": "Todo.md"
+    },
+    {
+      "type": "file",
+      "title": "Effectiveness depends on good routinges",
+      "path": "Productivity/Effectiveness depends on good routinees.md"
+    },
+    {
+      "type": "file",
+      "title": "Note taking Features",
+      "path": "Notetaking/Note taking Features.md"
+    },
+    {
+      "type": "file",
+      "title": "Task Manager Features",
+      "path": "Productivity/Task Manager Features.md"
+    },
+    {
+      "type": "search",
+      "title": "tag:#type/checklist",
+      "query": "tag:#type/checklist"
+    },
+    {
+      "type": "file",
+      "title": "20220617",
+      "path": "01-workbench/daily-notes/20220617.md"
+    }
+  ]
+}

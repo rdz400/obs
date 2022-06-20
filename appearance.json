@@ -1,0 +1,12 @@
+{
+  "theme": "moonstone",
+  "interfaceFontFamily": "Roboto,Source Sans Pro",
+  "textFontFamily": "Roboto,Source Sans Pro",
+  "baseFontSize": 16,
+  "cssTheme": "Minimal",
+  "translucency": false,
+  "monospaceFontFamily": "Roboto Mono",
+  "enabledCssSnippets": [
+    "obsidian"
+  ]
+}

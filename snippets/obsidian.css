@@ -1,0 +1,265 @@
+/* fallback */
+@font-face {
+    font-family: 'Material Symbols Sharp';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v10/gNMyW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReYU3rHmz4BC2dgEH-VBIa9x0TV08dDFHsF-H5uf1kw.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Material Unfilled';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v10/gNMVW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4aWE.woff2) format('woff2');
+}
+
+.theme-light{
+    --rdz-bg: #e1e7ee;
+}
+
+.theme-dark{
+    --rdz-bg: #0f0f0f;
+    --text-muted: rgb(168, 168, 168);
+}
+
+
+  
+body:not(.links-int-on) a[href*="obsidian://"], body:not(.links-int-on) .markdown-preview-view .internal-link, body:not(.links-int-on) .markdown-source-view.mod-cm6 .cm-hmd-internal-link .cm-underline, body:not(.links-ext-on) .external-link, body:not(.links-ext-on) .markdown-source-view.mod-cm6 .cm-link .cm-underline {
+    text-decoration: none;
+}
+
+a {
+    color: var(--text-accent);
+    outline: none;
+}
+
+.frontmatter-container .frontmatter-section {
+    align-items: center;
+}
+
+/**
+TAG CUSTOMIZATION
+**/
+
+.markdown-rendered p code {
+    padding: 3px;
+    border-radius: 6px;
+}
+
+a.tag{
+    font-size: 0.9em;
+    text-decoration: none;
+    /* background-color: antiquewhite; */
+    background-color: var(--rdz-bg);
+    padding: 3px;
+}
+
+/**
+NAV ACTION BUTTONS
+**/
+
+.nav-buttons-container {
+    padding: 3px 3px 0px 3px;
+    margin-bottom: 0px !important;
+    justify-content: flex-start;
+    border: 0;
+}
+
+.nav-action-button {
+    color: var(--text-muted);
+    cursor: pointer;
+    padding: 5px 8px 0 8px;
+    margin: 0 3px 4px 3px;
+    border-radius: 4px;
+}
+
+/**
+FILE EXPLORER
+**/
+
+.nav-folder.mod-root > .nav-folder-children{
+    /* Create some space on the left and right side of the file explorer */
+    padding: 0 4px 0 12px;
+}
+
+.mod-root > .nav-folder-children > .nav-folder > .nav-folder-title {
+    line-height: 22px;
+    /* background-color: var(--rdz-bg); */
+    border-radius: 10px;
+    min-width: auto;
+    /* width: calc(100% - 16px); */
+    /* width: 100%; */
+    margin: 10px 0 0px 0px;
+}
+
+.nav-file-title, .nav-folder-title {
+    font-family: "Segoe UI", Roboto, Oxygen-Sans;
+    width: max-content;
+    line-height: 20px;
+    border-radius: 4px;
+    font-size: 12.5px;
+    padding: 0px 10px 0px 10px;
+    border: none;
+    /* margin: 0 0 0 8px; */
+}
+
+.nav-folder-collapse-indicator {
+    /* margin-left: 0px; */
+    /* width: 14px; */
+    /* color: var(--text-faint); */
+}
+
+/**
+TAG PANE
+**/
+
+.tag-container {
+    font-size: 14px;
+    line-height: 17px;
+}
+
+
+.tag-container > div > .tree-item {
+    margin: 5px 0px;
+
+}
+
+.tag-container > div > .tree-item > .tree-item-self {
+    font-family: "Segoe UI", Roboto, Oxygen-Sans;
+    /* background-color: var(--rdz-bg); */
+    line-height: 22px;
+    border-radius: 10px;
+    /* padding: 10px auto; */
+    padding-top: 4px;
+    padding-bottom: 4px;
+    /* margin: 5px 0; */
+}
+
+.tag-container > div > .tree-item {
+    line-height: 22px;
+    border-radius: 10px;
+    margin: 5px 0;
+}
+
+.tree-item-children{
+    margin: 0px 0px;
+    margin-left: 20px;
+}
+
+.tree-item-children > .tree-item {
+    line-height: 16px;
+}
+
+.tag-container{
+    font-family: "Segoe UI", Roboto, Oxygen-Sans;
+}
+
+
+.tree-item-children .tree-item-self {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+
+/**
+EXPERIMENTAL
+**/
+/*───── <Nav Icons> ─────*/
+.nav-folder .is-collapsed .collapse-icon {
+    visibility: hidden;
+}
+
+.nav-folder .collapse-icon {
+    visibility: hidden;
+}
+    
+/*
+Check also this url: https://fonts.google.com/icons?icon.style=Sharp
+*/
+
+/* if the folder is collapsed */
+/* .mod-root > .nav-folder-children > .nav-folder > .nav-folder-title .collapse-icon:after {
+    visibility: initial;
+    content: "\e8f2";
+    font-family: 'Material Symbols Sharp';
+} */
+
+.mod-root > .nav-folder-children > .nav-folder:nth-child(2) > .nav-folder-title > .collapse-icon:after {
+    visibility: initial;
+    content: "\eb39";
+    font-family: 'Material Symbols Sharp';
+}
+
+.mod-root > .nav-folder-children > .nav-folder.is-collapsed:nth-child(2) > .nav-folder-title > .collapse-icon:after {
+    visibility: initial;
+    content: "\eb39";
+    font-family: 'Material Unfilled';
+}
+
+.mod-root > .nav-folder-children > .nav-folder:nth-child(3) > .nav-folder-title > .collapse-icon:after {
+    visibility: initial;
+    content: "\e019";
+    font-family: 'Material Symbols Sharp';
+}
+
+
+/* if the folder is collapsed */
+.nav-folder .is-collapsed .collapse-icon:after {
+    visibility: initial;
+    content: "\e2c7";
+    font-family: 'Material Symbols Sharp';
+}
+
+
+/* if the folder is open */
+.nav-folder .collapse-icon:after {
+    visibility: initial;
+    content: "\e2c8";
+    font-family: 'Material Symbols Sharp';
+}
+
+
+
+.nav-file-title-content:before{
+    /* content: "\e019";
+    font-family: 'Material Symbols Sharp'; */
+    /* margin: 0 0 0 8px; */
+}
+
+/* .nav-file-title[data-path$="md"]:before {
+    content: "\f15b";
+    font-family: 'Material Symbols Sharp';
+    padding-top: 3px;
+} */
+
+/* .nav-folder-title[data-path$="notes"]:before {
+    content: "\eb39";
+    font-family: 'Material Symbols Sharp';
+    padding-top: 2px;
+    padding-bottom: 2px;
+} */
+
+/**
+GRAPH VIEW
+**/
+
+/*tag  */
+.graph-view.color-fill-tag {
+    color: #000000 !important; /* fdbe38  #ffff00*/
+    opacity: 0.5;
+  }
+  
+  /* attachment*/
+  /* .graph-view.color-fill-attachment {
+    color: #00c4ff !important;
+    opacity: 1.0;
+  } */
+
+
+/**
+Make page wider for css class broad
+**/
+
+.broad .markdown-preview-sizer.markdown-preview-section {
+    max-width: 1000px;
+}
